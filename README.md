@@ -19,7 +19,7 @@ It combines **MATLAB**, **Python**, and **Verilog (Vivado)** to design, simulate
   - Exports both floating-point and fixed-point (Q14) coefficients.  
   - Prints Verilog-ready `parameter` definitions.
  
-  - **`analyse_fft.py`**  
+- **`analyse_fft.py`**  
   Loads Vivado simulation results (`sim_io.csv`) and performs FFT analysis.  
   - Compares spectra of input vs. output signals.  
   - Highlights passband tone (30 kHz by default).  
